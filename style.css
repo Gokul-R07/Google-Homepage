@@ -86,7 +86,7 @@ a:hover {
 .searchInput {
   display: flex;
   flex-grow: 1;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   outline: none;
 }
@@ -171,16 +171,49 @@ footer {
   .footerTwo-left {
     height: 50px;
     justify-content: center;
+    padding-left: 15px;
   }
   .footerTwo-right {
     height: 50px;
     justify-content: center;
   }
-  .content-section {
-    height: 543px;
+  .footerTwo-left a {
+    margin-right: 10px;
   }
-  .lastLanguage {
-    display: flex;
-    justify-content: center;
+  .footerOne {
+    padding-left: 15px;
+  }
+  .content-section {
+    height: 531px;
+  }
+  .languageBox p {
+    text-align: center;
+  }
+  .first-language::before {
+    content: "\a";
+    white-space: pre;
+  }
+  .languageBox a {
+    margin-left: 15px;
+  }
+  #googleLogo {
+    width: 200px;
+  }
+  .searchBar {
+    width: 90%;
+    height: 40px;
+  }
+  .buttons button {
+    height: 30px;
+  }
+  #button-one {
+    width: 100px;
+  }
+  .button-two {
+    width: 120px;
+  }
+  .contentBox {
+    margin-top: -20%;
   }
 }
+
